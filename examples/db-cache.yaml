@@ -1,0 +1,8 @@
+databases:
+  redis:
+    driver: "redis"
+    host: "cache.redis.example.com"
+    port: 6379
+    password: "redis-pass"
+    db: 0
+    ttl: "24h"

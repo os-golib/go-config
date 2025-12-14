@@ -1,0 +1,10 @@
+databases:
+  primary:
+    driver: "postgres"
+    host: "primary.db.example.com"
+    port: 5432
+    name: "primary_db"
+    pool:
+      max_connections: 50
+      max_idle_connections: 10
+      max_lifetime: "1h"

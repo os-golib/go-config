@@ -1,0 +1,10 @@
+# Simulated remote configuration
+remote:
+  api_key: "REMOTE-API-KEY-12345"
+  endpoint: "https://api.config-service.com/v1"
+  sync_interval: "1m"
+  
+external:
+  payment_gateway: "stripe"
+  email_service: "sendgrid"
+  analytics_id: "UA-123456789"

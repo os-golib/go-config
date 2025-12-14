@@ -1,0 +1,14 @@
+databases:
+  replica1:
+    driver: "postgres"
+    host: "replica1.db.example.com"
+    port: 5432
+    name: "replica_db"
+    read_only: true
+    
+  replica2:
+    driver: "postgres"
+    host: "replica2.db.example.com"
+    port: 5432
+    name: "replica_db"
+    read_only: true

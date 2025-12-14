@@ -1,0 +1,27 @@
+server:
+  host: localhost
+  port: 8080
+  read_timeout: 30s
+  write_timeout: 30s
+  max_connections: 100
+  ssl: false
+
+database:
+  driver: postgres
+  host: "production-db.cluster.amazonaws.com"
+  port: 5432
+  username: admin
+  password: securepassword
+  name: "production_db"
+  ssl_mode: require
+
+logging:
+  level: "warn"
+  format: "json"
+  file: "/var/log/app.log"
+
+features:
+  caching: true
+  monitoring: true
+  analytics: true
+  rate_limiting: true
